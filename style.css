@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+   background: #D97E8E;
+}
+
+header .container {
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+#intro {
+    background: #EADDCA;
+}
+
+#intro .container {
+    display: flex;
+}
+
+#about {
+    background: #C19A6B;
+}
+
+#about .container {
+    display: flex;
+}
+
+#quote {
+    background: #EADDCA;
+}
+
+#quote .container {
+    display: flex;
+}
+
+#recipe {
+    background: #C19A6B;
+}
+
+#recipe .container {
+    display: flex;
+}
+
+footer {
+    background: #D97E8E; 
+}

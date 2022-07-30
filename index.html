@@ -5,48 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A pancake appreciation site</title>
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div class="logo">
-            Header logo
+        <div class="container">
+            <div class="logo">
+                <h1>Pancakes: a love story</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="about">About</a></li>
+                    <li><a href="quote">Inspirational words</a></li>
+                    <li><a href="recipe">Find a recipe</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul>
-                <li><a href="#">Link one</a></li>
-                <li><a href="#">Link two</a></li>
-                <li><a href="#">Link three</a></li>
-            </ul>
-        </nav>
     </header>
-    
     <main>
-        <section class="intro">
-            <div class="content">
-                <p>Some content will go here</p>
+        <section id="intro">
+            <div class="container">
+                <div class="content">
+                    <p>Some content will go here</p>
+                </div>
+                <figure>
+                    <p>Pic will go here</p>
+                </figure>
             </div>
-            <figure>
-                <p>Pic will go here</p>
-            </figure>
         </section>
-        <section class="history">
-            History of pancakes will go here. Format TBC.
-        </section>
-        <section class="quote">
-            <blockquote>
-                <p>This will contain an amazing quote from myself about how awesome pancakes are.</p>
-               </blockquote>
-               <p>— annikanana</p>
-        </section>
-        <section class="banner">
-            <div class="banner-text">
-                <p>Banner text will go here!</p>
+        <section id="about">
+            <div class="container">
+                Information about pancakes will go here. Format TBC.
             </div>
-            <a href="https://www.google.com/search?q=pancake+recipe">Click on me!</a>
         </section>
-
+        <section id="quote">
+            <div class="container">
+                <blockquote>
+                    <p>This will contain an amazing quote from myself about how awesome pancakes are.</p>
+                </blockquote>
+                <p>— annikanana</p>
+            </div>
+        </section>
+        <section id="recipe">
+            <div class="container">
+                <div class="banner-text">
+                    <p>Banner text will go here!</p>
+                </div>
+                <a href="https://www.google.com/search?q=pancake+recipe">Click on me!</a>
+            </div>    
+        </section>
     </main>
-
     <footer>
-        <p>Copyright &copy; annikanana 2022</p>
+        <div class="container">
+            <p>Copyright &copy; annikanana 2022</p>
+        </div>
+    </footer>
 </html>
