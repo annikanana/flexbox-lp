@@ -11,7 +11,7 @@ body {
 }
 
 header {
-   background: #D97E8E;
+   background: #C94A62;
 }
 
 header .container {
@@ -118,8 +118,30 @@ nav ul {
 
 #recipe .container {
     display: flex;
+    justify-content: center;
+}
+
+#recipe .banner {
+    display: flex;
+    align-items: center;
+    background: white;
+    width: 800px;
+    padding: 15px 60px;
+    column-gap: 15px;
+    border-radius: 30px;
+}
+
+#recipe .banner .banner-text {
+    flex: 1;
+}
+
+#recipe .banner a {
+    display: block;
+    background: #C94A62;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 footer {
-    background: #D97E8E; 
+    background: #C94A62; 
 }
