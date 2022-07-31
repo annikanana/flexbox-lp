@@ -134,6 +134,7 @@ nav ul li a:hover {
 
 #quote p {
     margin: 0;
+    font-style: italic;
 }
 
 #quote blockquote {
@@ -142,16 +143,21 @@ nav ul li a:hover {
 
 #quote blockquote p {
     font-size: 2rem;
+    font-family: 'Kalam', cursive;
 }
 
 #quote blockquote p::before {
     content: '\201C';
     font-size: 2rem;
+    color: #C94A62;
+    font-weight: 700;
 }
 
 #quote blockquote p::after {
     content: '\201D';
     font-size: 2rem;
+    color: #C94A62;
+    font-weight: 700;
 }
 
 #recipe {
