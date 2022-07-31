@@ -65,7 +65,7 @@ nav ul li a:hover {
 
 #intro .container {
     display: flex;
-    gap: 20px;
+    gap: 60px;
     align-items: center;
 }
 
@@ -109,6 +109,16 @@ nav ul li a:hover {
 #about .gallery figure img {
     max-width: 100%;
     border-radius: 50%;
+}
+
+#about .gallery figcaption {
+    margin-top: -25px;
+}
+
+#about .gallery figcaption h3 {
+    background: #FAECD7;
+    transform: rotate(357deg);
+    box-shadow: 3px 3px 10px #7A6545;
 }
 
 #quote {
