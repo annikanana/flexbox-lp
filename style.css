@@ -174,15 +174,15 @@ nav ul li a:hover {
     display: flex;
     align-items: center;
     background: white;
-    width: 700px;
+    width: 800px;
     padding: 60px 100px;
     column-gap: 15px;
     border-radius: 50%;
     box-shadow: 0px 10px 20px rgba(0,0,0,0.5);
+    justify-content: space-evenly;
 }
 
 #recipe .banner .banner-text {
-    flex: 1;
     text-align: center;
 }
 
@@ -192,15 +192,25 @@ nav ul li a:hover {
 
 #recipe .banner a {
     display: block;
-    background: #EADDCA;
+    background: #B78A52;
     padding: 20px;
     border-radius: 50%;
     box-shadow:
-    0 6px #C19A6B,
-    0 12px #EADDCA,
-    0 18px #C19A6B;
-    margin-top: -18px;
-    font-weight: 700;
+    0 6px #EADDCA,
+    0 9px #B78A52,
+    0 15px #EADDCA,
+    0 18px #B78A52,
+    0 24px #EADDCA;
+    margin-top: -24px;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-style: italic;
+    transform: rotate(356deg);
+}
+
+#recipe .banner a:hover {
+    transform: rotate(4deg);
+    text-decoration: none;
 }
 
 footer {
