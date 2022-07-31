@@ -7,7 +7,7 @@ body {
 .container {
     max-width: 1200px;
     margin: auto;
-    padding: 40px;
+    padding: 60px;
 }
 
 header {
@@ -85,6 +85,31 @@ nav ul {
 
 #quote .container {
     display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    max-width: 800px;
+}
+
+#quote p {
+    margin: 0;
+}
+
+#quote blockquote {
+    margin: 0;
+}
+
+#quote blockquote p {
+    font-size: 2rem;
+}
+
+#quote blockquote p::before {
+    content: '\201C';
+    font-size: 2rem;
+}
+
+#quote blockquote p::after {
+    content: '\201D';
+    font-size: 2rem;
 }
 
 #recipe {
