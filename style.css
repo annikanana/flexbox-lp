@@ -5,6 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Open Sans', sans-serif;
+    color: #1A1A1C;
 }
 
 h1, h2, h3 {
@@ -14,7 +15,7 @@ h1, h2, h3 {
 
 a {
     text-decoration: none;
-    color: #453121;
+    color: #7a2720;
 }
 
 a:hover {
@@ -32,11 +33,11 @@ figcaption a {
 }
 
 header {
-   background: #C94A62;
+   background: #cc493e;
    color: #FFFFFF;
 }
 
-header .container {
+header .container { 
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -47,6 +48,8 @@ nav ul {
     display: flex;
     gap: 20px;
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 nav ul li a {
@@ -60,7 +63,7 @@ nav ul li a:hover {
 }
 
 #intro {
-    background: #EADDCA;
+    background: #F2D9D0;
 }
 
 #intro .container {
@@ -85,7 +88,7 @@ nav ul li a:hover {
 }
 
 #about {
-    background: #C19A6B;
+    background: #D6A59D;
 }
 
 #about .container {
@@ -101,9 +104,10 @@ nav ul li a:hover {
 
 #about .gallery figure {
     margin: 0;
-    width: 250px;
+    min-width: 250px;
     text-align: center;
     padding: 20px;
+    flex: 1;
 }
 
 #about .gallery figure img {
@@ -116,13 +120,18 @@ nav ul li a:hover {
 }
 
 #about .gallery figcaption h3 {
-    background: #FAECD7;
+    background: #cc493e;
     transform: rotate(357deg);
     box-shadow: 3px 3px 10px #7A6545;
+    color: #fff;
+    padding: 8px;
+    border-radius: 4px;
+    max-width: 180px;
+    margin: 0 auto 32px auto;
 }
 
 #quote {
-    background: #EADDCA;
+    background: #F2D9D0;
 }
 
 #quote .container {
@@ -149,14 +158,14 @@ nav ul li a:hover {
 #quote blockquote p::before {
     content: '\201C';
     font-size: 2rem;
-    color: #C94A62;
+    color: #cc493e;
     font-weight: 700;
 }
 
 #quote blockquote p::after {
     content: '\201D';
     font-size: 2rem;
-    color: #C94A62;
+    color: #cc493e;
     font-weight: 700;
 }
 
@@ -214,7 +223,7 @@ nav ul li a:hover {
 }
 
 footer {
-    background: #C94A62;
+    background: #cc493e;
 }
 
 footer .container {
